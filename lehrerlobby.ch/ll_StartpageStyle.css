@@ -1,0 +1,194 @@
+  body {
+      position: relative; 
+  }
+a,a:hover{
+  text-decoration:none;
+  color:black;
+}
+  #section1 {padding-top:90px;background-color: grey;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('http://usersthink.com/wp-content/uploads/15-usersthink-stock-image-small.jpg');
+}
+
+#section1 .img-thumbnail{
+
+  border:10px solid #CD9932;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#section2 { 
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYjNPOwpNpdlo6j_Fpbq2FFeyZvWYEYkMTjAdYskPGTzh-I24-');
+}
+
+#section2 .img-thumbnail{
+  border:0px;
+  display:block;
+  margin:auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.portfolio-frame {
+  top:20px;
+  display:block;
+  margin: 10px auto 10px auto; 
+  text-align:center;
+  border:10px solid #CD9932;
+  border-radius:5px;
+  max-width:300px ;
+  
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.portfolio-frame:hover {
+  cursor:pointer;
+  border:0px;
+  
+}
+    
+
+
+#section2 h1{ 
+  text-align: center;
+}
+
+  
+  
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+
+
+
+
+#myNavbar ul li a,.dropdown a,#myButton, #mySearch{
+   color: black;
+  text-align: center;
+  border:solid #CD9932 1px;
+  border-radius: 5px;
+  margin:10px;
+  
+ 
+}
+.open .dropdown-toggle {
+        background:#d3d3d3 !important; 
+    }
+
+.navbar, .dropdown-menu,#myButton{
+  
+  background-color:#d3d3d3;
+  
+}
+
+#myNavbar ul li a:hover,#myButton:hover{
+  cursor:pointer;
+
+  background-color:#CD9932;
+  text-decoration:none;
+  color:white;
+}
+.navbar-nav>li.active>a{
+ color: white !important;
+ background-color: #CD9932 !important;
+}
+
+
+.page-footer{
+  background-color: #CD9932;
+  
+}
+
+
+#popin{
+  
+    display: none;
+    border: solid 2px #CD9932;
+    background-color: #d3d3d3;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+
+.footer-col1{
+  background-color:#CD9932;
+}
+.footer-row {
+    display: flex;
+    align-items: center;
+
+}
+.footer-col2{
+  background-color:#CD9932;
+}
+
+#footer-table td{
+  padding:10px;
+  color:white;
+  border-color:#d3d3d3;
+  color:white;
+}
+
+#footer-table td a{
+  color:white;
+}
+#footer-table td a:hover{
+  padding:10px;
+  background-color:#d3d3d3;
+  text-decoration:none;
+  color:black;
+}
+
+.popin-footer-row .contact-col ul{
+  list-style-type: none;
+}
+
+.popin-footer-row table td{
+  text-align:center;
+  padding:5px;
+}
+
+.user {
+  display: inline-block;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+
+.one {
+  width: 30px;
+  height: 30px;
+  background-image: url('https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2016/11/16/12/homer-simpson.jpeg');
+}
+
+.two {
+  width: 30px;
+  height: 30px;
+  background-image: url('https://timedotcom.files.wordpress.com/2014/08/t100_tv_spongebob_free1.jpg?quality=85&w=1024');
+}
+
+.three {
+  width: 30px;
+  height: 30px;
+  background-image: url('https://static.kino.de/wp-content/uploads/2015/08/398456_1.jpg');
+}
+
+ 
